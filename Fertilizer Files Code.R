@@ -76,6 +76,23 @@ View(FLFert_all2)
 dim(FLFert_all2) #456 8
 colnames(FLFert_all2)
 
+# create a new df that calculates the difference between use in 2017 and 2022
+FLFert_diff = FLFert_all2
+sapply(FLFert_diff, class)
+colnames(FLFert_diff)
+names(FLFert_diff)[4] ="Year2017"
+names(FLFert_diff)[5] ="Year2018"
+names(FLFert_diff)[6] ="Year2019"
+names(FLFert_diff)[7] ="Year2020"
+names(FLFert_diff)[8] ="Year2021"
+FLFert_diff = transform(FLFert_diff, Year2017 = as.numeric(Year2017), 
+                        Year2018 = as.numeric(Year2018),
+                        Year2019 = as.numeric(Year2019),
+                        Year2020 = as.numeric(Year2020),
+                        Year2021 = as.numeric(Year2021))
+FLFert_diff$Difference = FLFert_diff$Year2021 - FLFert_diff$Year2017
+View(FLFert_diff)
+
 # melt data to collapse columns for graphing
 FLFert_melt = melt(FLFert_all2, na.rm = FALSE, id = c("ID", "Licensee", "ReportingPlant"))
 colnames(FLFert_melt)
