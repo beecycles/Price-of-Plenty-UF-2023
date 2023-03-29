@@ -3,7 +3,7 @@
 ######################### Joan Meiners 2023 ###############################
 
 
-### This script is for analyzing phosphorus plant location data ####
+### This script is for analyzing phosphorus site location data ####
 
 #load libraries
 library(dplyr)
@@ -25,7 +25,7 @@ library(quantreg)
 
 # load data
 setwd("C:/Users/JMeiners/OneDrive - Gannett Company, Incorporated/Desktop/UF Adjunct Teaching/Fertilizer Data/Student Data/Katie Delk")
-katie_plant_data = read.csv("PhosphorusMines_katie_cleaned.csv", header = TRUE)
+katie_plant_data = read.csv("PhosphorusSites_katie_cleaned.csv", header = TRUE)
 dim(katie_plant_data) #36 9
 View(katie_plant_data)
 
@@ -86,7 +86,57 @@ View(katie_FL_sites)
 # limit df to relevant variables
 colnames(katie_FL_sites)
 katie_short = katie_FL_sites[, c(2,1,3,4,5,6,40,60,68,69,70,71,72,73,74,75,76,77,78,79,80)]
-dim(katie_short) #937 21
+dim(katie_short) #945 21
 View(katie_short)
-write.csv(katie_short, file = "katie_short.csv", row.names= FALSE)
+katie_short$n = as.numeric(katie_short$n)
+#write.csv(katie_short, file = "katie_short.csv", row.names= FALSE)
 
+# change "n" variable to read "0" for type = NA
+katie_type = katie_short %>% mutate(type = ifelse(is.na(type), "none", type))
+katie_type$n[katie_type$type == "none"] <- 0 
+katie_type$n = as.numeric(katie_type$n)
+View(katie_type)
+
+# analyze data for patterns with plant numbers and race data
+colnames(katie_type)
+hist(katie_type$n)
+hist(as.numeric(katie_type$Percent..RACE..Total.population..One.race..White)) # normal enough??
+racediff_type = glm(katie_type$n ~ as.numeric(katie_type$Percent..RACE..Total.population..One.race..White))
+summary(racediff_type) # "." moderately significant
+
+# analyze data for patterns with plant numbers and median income
+colnames(katie_type)
+hist(katie_type$n)
+hist(as.numeric(katie_type$Estimate..Households..Median.income..dollars.)) # normal enough??
+incomediff_type = glm(katie_type$n ~ as.numeric(katie_type$Estimate..Households..Median.income..dollars.))
+summary(incomediff_type) # moderately significant, but why are there two P-vals??
+
+
+# take out site type and tally all sites by zip code
+colnames(katie_FL)
+katie_notype = katie_FL[, c(1:128)]
+dim(katie_notype) #990 128
+katie_notype = katie_notype %>%
+  group_by(zip) %>%
+  tally()
+dim(katie_notype) #937 2
+View(katie_notype)
+
+# add back in demographic data 
+katie_notype = join(katie_notype, census_FL, by = "zip",  type = "left")
+dim(katie_notype) #937 121
+View(katie_notype)
+
+# analyze race patterns again without site type
+colnames(katie_notype)
+hist(katie_notype$n)
+hist(as.numeric(katie_notype$Percent..RACE..Total.population..One.race..White)) # normal enough??
+racediff_notype = glm(katie_notype$n ~ as.numeric(katie_notype$Percent..RACE..Total.population..One.race..White))
+summary(racediff_notype) # *** highly significant
+
+# analyze income patterns again without site type
+colnames(katie_notype)
+hist(katie_notype$n)
+hist(as.numeric(katie_notype$Estimate..Households..Median.income..dollars.)) # normal enough??
+incomediff_notype = glm(katie_notype$n ~ as.numeric(katie_notype$Estimate..Households..Median.income..dollars.))
+summary(incomediff_notype) # *** highly significant
