@@ -4,6 +4,9 @@ Data journalism project about the environmental impacts of fertilizer overuse in
 
 Joan Meiners, co-instructor of the course, oversaw the data aspects of the stories written by the University of Florida students for this class. This page outlines the details of those stories. The data and code files are included above and the methodology is detailed on the Wiki page.
 
+For more information, email joan.meiners@gmail.com.
+
+
 _Description of uploaded files above:_
 
  * **README.md** - standard file for basic info
@@ -18,5 +21,3 @@ _Description of uploaded files above:_
  * **Tonnage-Sales-per-Quarter-for-FY-2019-2020.csv** - Data on fertilizer sales for 2019-2020 from Florida Department of Agriculture and Consumer Services [https://www.fdacs.gov/Agriculture-Industry/Fertilizer-Licensing-and-Tonnage-Reporting]
  * **Fertiilzer-Report-FY-2020-2021.csv** - Data on fertilizer sales for 2020-2021 from Florida Department of Agriculture and Consumer Services [https://www.fdacs.gov/Agriculture-Industry/Fertilizer-Licensing-and-Tonnage-Reporting]
 * **FiscalYear2021-2022.csv** - Data on fertilizer sales for 2021-2022 from Florida Department of Agriculture and Consumer Services [https://www.fdacs.gov/Agriculture-Industry/Fertilizer-Licensing-and-Tonnage-Reporting]
-
-For more information, email joan.meiners@gmail.com.
