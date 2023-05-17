@@ -9,7 +9,7 @@ For more information, email joan.meiners@gmail.com.
 
 _Description of uploaded files above:_
 
- * **README.md** - standard file for basic info
+ * **README.md** - this page, standard file for basic info
  * **FertilizerSales_FDACS.R** - code to join and clean fertilizer sales data from all years into one file
  * **PhosphorusPlants_katie.R** - code to rearrange, clean and combine phosphorus mining sites with demographic data to analyze location patterns relative to income and race
  * **PhosphorusSites_katie_cleaned.csv** - cleaned data on the location and type of phosphorus mining sites in Florida, see Katie Delk methodology on Wiki page for more details on how it was assembled
