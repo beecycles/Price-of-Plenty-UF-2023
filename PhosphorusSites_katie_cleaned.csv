@@ -1,0 +1,92 @@
+Owner,Facility,County,State,Address,City,zip,Latitude,Longitude,type,Status (gypstacks)
+Nutrien Ltd.,Aurora ,Beaufort,NC,1530 Hwy. 306 South,Aurora,27806,35.3771,-76.7485,Mine,
+"Agrium US, Inc.",Dry Valley,Caribou,ID,2275 Dry Valley Rd.,Soda Springs,83276,42.75037,-111.32559,Mine,
+"Agrium US, Inc.",Rasmussen Ridge,Caribou,ID,3826 Blackfoor River Rd.,Soda Springs,83276,42.78863,-111.42807,Mine,
+Bayer AG,Blackfoot Bridge,Caribou,ID,,Soda Springs,83276,42.79072,-111.52441,Mine,
+Bayer AG,Enoch Valley,Caribou,ID,3268 Blackfoot River Rd.,Soda Springs,83276,42.8868,-111.41547,Mine,
+Itafos,Lanes Creek,Caribou,ID,Lanes Creek Rd.,Soda Springs,83276,42.83388889,-111.3172222,Mine,
+J.R. Simplot Co.,Smoky Canyon,Caribou,ID,1890 Smokey Canyon Rd.,Afton,83110,,,Mine,
+Monsanto Co.,Henry Mine,Caribou,ID,Caribou-Targhee National Forest,Soda Springs,83276,42.49972,-111.18389,Mine,
+Monsanto Co.,South Rasmussen,Caribou,ID,Caribou-Targhee National Forest,Soda Springs,83276,42.85,-111.35,Mine,
+Nutrien Ltd.,Swift Creek,Hamilton,FL,,Jasper,32052,30.44694,-82.85611,Mine,
+Nutrien Ltd.,White Springs Phosphate,Hamilton,FL,15843 SE 78th St.,White Springs,32096,30.40519,-82.80285,Mine,
+"PCS Phosphate Co., Inc.",Swift Creek,Hamilton,FL,,Jasper,32052,,,Mine,
+"CF Industries, Inc.",South Pasture,Hardee,FL,6209 North CR 663,Bowling Green,33834,,,Mine,
+"Mosaic Company, The",South Fort Meade,Hardee,FL,5880 Manley Rd.,Fort Meade,33841,,,Mine,
+"Mosaic Company, The",South Pasture,Hardee,FL,2555 Mine View Rd,Bowling Green,33834,,,Mine,
+"Mosaic Company, The",Four Corners ,Hillsborough and Manatee,FL,11200 Old Hwy 37,Mulberry,33860,,,Mine,
+IMC Phosphates MP Inc.,Hopewell,Hillsborough,FL,,Plant City,33567,27.93333,-82.125,Mine,
+"Mosaic Company, The",Wingate,Manatee,FL,,Myakka City,34251,27.4976,-82.11906,Mine,
+IMC Phosphates MP Inc.,Fort Green,Polk,FL,,Bowling Green,33834,27.66806,-82.00694,Mine,
+"Mosaic Company, The",Hookers Prairie,Polk,FL,,Mulberry,33860,27.78111111,-81.95,Mine,
+"Mosaic Company, The",South Fort Meade,Polk,FL,,,,,,Mine,
+IMC Phosphates MP Inc.,Kingsford,Polk/Hillsborough,FL,,Mulberry,33860,27.83388889,-81.99805556,Mine,
+J.R. Simplot Co.,Vernal,Uintah,UT,,Vernal,84078,40.6125,-109.5017,Mine,
+"SF Phosphates, Ltd. Co.",Little Brush Creek,Uintah,UT,Ashley National Forest,Vernal,84078,40.72583,-109.51139,Mine,
+PCS Phosphate,Pcs-Phosphate-Swift Chemical Complex And Mine FKA,,FL,Swift Creek (West of CR 137),Jasper,32052,30.4427636,-82.8696384,Gypstack,Active
+PCS Phosphate,Pcs-Phosphate--Suwannee River Mine And Chemical C,,FL,Suwannee River (East of CR 137),White Springs,32052,30.432558,-82.7829762,Gypstack,Inactive
+PCS Phosphate,Pcs-Phosphate--Suwannee River Mine And Chemical C,,FL,Suwannee River (East of CR 137),White Springs,32052,30.4405511,-82.7953026,Gypstack,Inactive
+"HRK Holdings, LLC",HRK- Piney Point,,FL,1330 U.S. Highway 41 North,Palmetto,34221,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Status (gypstacks),,FL,8813 U.S. Highway 41 South,Riverview,33569,,,Gypstack,Active
+"Mosaic Fertilizer, LLC",Mosaic-Riverview,,FL,8813 U.S. Highway 41 South,Riverview,33569,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic- Plant City,,FL,10608 Paul Buchman Hwy,Plant City,33565,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic- Plant City,,FL,10608 Paul Buchman Hwy,Plant City,33565,,,Gypstack,Inactive
+"Mosaic Fertilizer, LLC",Mosaic-New Wales,,FL,3095 State Road 640,Mulberry,33860,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic-New Wales,,FL,3095 State Road 640,Mulberry,33860,,,Gypstack,Active
+"Mosaic Fertilizer, LLC",Mosaic-Nichols,,FL,5000 County Road 676,Nichols,33860,,,Gypstack,Closed
+"Cytec Industries, LLC",CYTEC-Brewster,,FL,7219 Old Highway 37,Mulberry,33860,,,Gypstack,Inactive
+"Mosaic Fertilizer, LLC",Mosaic-Mulberry,,FL,400 State Road 60 East,Mulberry,33860,,,Gypstack,Inactive
+"Mosaic Fertilizer, LLC",Mosaic-South Pierce,,FL,7450 County Road 630,Mulberry,33860,,,Gypstack,Inactive
+"Mosaic Fertilizer, LLC",Mosaic-Bonnie,,FL,2501 Bonnie Mine Road,Bartow,33831,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic-Green Bay,,FL,4390 CR 640 West,Bartow,33830,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic-Green Bay,,FL,4390 CR 640 West,Bartow,33830,,,Gypstack,Inactive
+"Mosaic Fertilizer, LLC",Mosaic-P-21,,FL,East Bonnie Mine Road,Bartow,33830,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic-Bartow,,FL,3200 Highway 60 West,Bartow,33831,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic-Mulberry,,FL,400 State Road 60 East,Mulberry,33860,,,Gypstack,Closed
+"Estech, LLC",Estech-Agricola,,FL,CR 555 and Agricola Road,Agricola,33841,,,Gypstack,Closed
+"Mosaic Fertilizer, LLC",Mosaic-Bartow,,FL,3200 Highway 60 West,Bartow,33831,,,Gypstack,Active
+US Agri-Chemicals,USAC-Bartow,,FL,2559 Hwy 60 West,Bartow,33830,,,Gypstack,Closed
+US Agri-Chemicals,USAC-Ft. Meade,,FL,3225 State Road 360 ,Fort Meade,33841,,,Gypstack,Closed
+US Agri-Chemicals,USAC-Ft. Meade,,FL,3225 State Road 360,Fort Meade,33841,,,Gypstack,Closed
+,Bartow #1 Phosphoric Acid Plant,Alachua,FL,,Lakeland,33813,27.9056,-81.91235,Plant,
+,Bartow #2 Phosphoric Acid Plant,Alachua,FL,,Bartow,33830,27.88721,-81.89375,Plant,
+,Bartow Cf Phosphoric Acid Plant,Alachua,FL,,Bartow,33830,27.86701,-81.93875,Plant,
+,Bartow Ussac Phosphoric Acid Pl.,Alachua,FL,,Bartow,33830,27.9045,-81.87625,Plant,
+,Ft. Meade Semi/Sino Phos Acid Pl,Alachua,FL,,Fort Meade,33841,27.71701,-81.81655,Plant,
+,Ft. Meade Ussac Phos. Acid Plant,Alachua,FL,,Fort Meade,33841,27.73221,-81.84985,Plant,
+,Mulberry Phosphoric Acid Plant,Alachua,FL,,Mulberry,33860,27.89201,-81.94705,Plant,
+,New Wales Phosphoric Acid Plant,Alachua,FL,3095 CR-640,Mulberry,33860,27.83091,-82.03956,Plant,
+,Nichols Phosphoric Acid Plant,Alachua,FL,,Lithia,33547,27.87611,-82.03176,Plant,
+,Pierce Agrico Phos. Acid Plant,Alachua,FL,,Fort Meade,33841,27.77251,-81.93045,Plant,
+,Pierce Farmland Phos. Acid Plant,Alachua,FL,4390 Hwy 640,Bartow,33830,27.84611,-81.91235,Plant,
+,Piney Point Fcs Phos. Acid Plant,Alachua,FL,,Horseshoe Beach,32625,29.51696,-83.39989,Plant,
+,Plant City Cf Phos. Acid Plant,Alachua,FL,660 E County Line Rd.,Plant City,33810,28.1614,-82.13596,Plant,
+,Tampa Phosphoric Acid Plant,Alachua,FL,,Riverview,33578,27.87251,-82.39707,Plant,
+,White Springs Phosphoric Acid Plant,Alachua,FL,,Jasper,32052,30.43443,-82.77877,Plant,
+,Agrico Pensacola Plant,Escambia,FL,620 N Q St.,Pensacola,32505,30.41963,-87.2433,Plant,
+,White Springs Phos-Acid Plant,Hamilton,FL,,White Springs,32096,30.33853,-82.78297,Plant,
+,Big Bend Terminal,Hillsborough,FL,,Gibsonton,33534,27.84391,-82.38797,Plant,
+,Coronet Road Processing Plant,Hillsborough,FL,6162 Malton St.,North Port,34286,27.11533,-82.17656,Plant,
+,Plant City Cf,Hillsborough,FL,1302 E Baker St.,Plant City,33563,28.0186,-82.11296,Plant,
+,Tampa Cargil Inc.,Hillsborough,FL,601 N 19th St.,Tampa,33605,27.9528,-82.43817,Plant,
+,Piney Point Nu-Gulf,Manatee,FL,1858 Morrill St.,Sarasota,34236,27.33362,-82.53317,Plant,
+,Bartow Cargill,Polk,FL,3801–3899 Peeples Rd.,Fort Meade,33841,27.69811,-81.84235,Plant,
+,Bartow Cargill 2,Polk,FL,,Bartow,33830,27.88721,-81.89375,Plant,
+,Bartow Cf,Polk,FL,,Bartow,33830,27.86701,-81.93875,Plant,
+,Bartow Mill,Polk,FL,,Bartow,33830,27.9017,-81.88065,Plant,
+,Bartow Minerals Corp Mill,Polk,FL,110 E Church St.,Bartow,33830,27.8981,-81.84315,Plant,
+,Bartow Ussac,Polk,FL,,Bartow,33830,27.9045,-81.87625,Plant,
+,Ft. Meade Ussac,Polk,FL,,Fort Meade,33841,27.73221,-81.84985,Plant,
+,Ft. Meade Uss Ari-Chemicals Corp,Polk,FL,1100 Old Brewster Rd.,Fort Meade,33841,27.74781,-81.89065,Plant,
+,Mulberry Gulf-Atlantic,Polk,FL,,Mulberry,33860,27.89201,-81.94705,Plant,
+,New Wales Imc,Polk,FL,,Mulberry,33860,27.89031,-82.03156,Plant,
+,Nichols Imc-Agrico,Polk,FL,,Lithia,33547,27.87611,-82.03176,Plant,
+,Nichols Mill,Polk,FL,,Mulberry,33860,27.88781,-82.03626,Plant,
+,Palmetto Mill,Polk,FL,,Mulberry,33860,27.71641,-81.93155,Plant,
+,"Phosphate Center/ Bartow, Fla.",Polk,FL,,Mulberry,33860,27.80031,-81.94985,Plant,
+,Pierce Drying Plant,Polk,FL,4975 Cherry Dr,Mulberry,33860,27.83751,-81.97625,Plant,
+,Pierce Farmland/Hydro,Polk,FL,,Bartow,33830,27.88921,-81.80875,Plant,
+,Pierce Imc-Agrico,Polk,FL,,Bradley,33835,27.77251,-81.93045,Plant,
+,Ridgewood Mill,Polk,FL,,Bartow,33830,27.89721,-81.91845,Plant,
+,South Pierce Wet Rock Process Mill,Polk,FL,,Fort Meade,33841,27.75421,-81.94015,Plant,
+,Virginia Street Plant,Polk,FL,203 W Canal St.,Mulberry,33860,27.89531,-81.97485,Plant,
